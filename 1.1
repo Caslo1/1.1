@@ -1,0 +1,18 @@
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+	int range;
+	int remainder;
+	cout << "Enter the distance in meters " << endl;
+	cin >> range;
+	remainder = range % 1000;
+	range = range / 1000;
+	
+	cout << "Your result in kilometers\n" << range << "KM " << remainder << "m" << endl;
+
+	return 0;
+
+}
